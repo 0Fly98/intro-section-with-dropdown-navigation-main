@@ -97,3 +97,10 @@ color: hsl(0, 0%, 41%);
 line-height: 25px;
 margin-bottom: 40px;
 }
+
+.wrapper .left button {
+    color: white;
+    background-color: black;
+    padding: 13px 25px;
+    
+}
