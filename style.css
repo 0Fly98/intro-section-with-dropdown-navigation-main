@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Epilogue', sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
 }
 
 .main-page nav{
@@ -81,26 +86,95 @@
 }
 
 .wrapper .left {
-    width: 50%;
+    width: 65%;
     padding: 50px;
 }
 
 .wrapper .left h1{
     font-size: 6rem;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+    margin-top: 70px;
 }
 
 .wrapper .left p {
 font-size: 20px;
 color: hsl(0, 0%, 41%);
 line-height: 25px;
-margin-bottom: 40px;
+margin-bottom: 60px;
+width: 450x;
 }
 
 .wrapper .left button {
     color: white;
     background-color: black;
     padding: 13px 25px;
-    
+border-radius: 15px;
+border: 1px solid hsl(0, 0%, 41%);
+font-size: 20px;
+cursor: pointer;
+margin-bottom: 120px;
+transition: 0.5s;
+}
+
+.wrapper .left button:hover{
+    color: hsl(0, 0%, 8%);
+    background-color: white;
+    border-color: hsl(0, 0%, 8%);;
+}
+
+.wrapper .left .footer-icons img {
+margin-inline: 20px;
+}
+
+.wrapper .right {
+    width: 35%;
+}
+
+.wrapper .right img{
+    width: 100%;
+    padding: 30px;
+}
+
+.feature-blog {
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px hsl(0, 0%, 73%);
+    border-radius: 10px67;
+    text-align: left;
+    padding: 10px 5px;
+    padding-left: 20px;
+    position: absolute;
+    top: 100px;
+    left: 135px;
+}
+
+.feature-blog p{
+    margin: 10px 0;
+    color: hsl(0, 0%, 41%);
+}
+.feature-blog img {
+    margin-bottom: 5px;
+}
+
+.company-blog {
+    width: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px hsl(0, 0%, 73%);
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 15px;
+    position: absolute;
+    top: 80px;
+    left: 335px;
+}
+
+.company-blog p {
+    padding-left: 5px;
+    margin: 10px 0;
+    color: hsl(0, 0%, 41%);
+}
+
+.display-none {
+    display: none;
 }
