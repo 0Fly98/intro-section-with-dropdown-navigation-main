@@ -1,8 +1,12 @@
-const featureBtn = document.getElementById('feature-btn');
-const companyBtn = document.getElementById("company-btn");
-const featureBlog = document.getElementById('feature-blog');
-const companyBlog = document.getElementById('company-blog')
+const menu = document.querySelector('.menu');
+const dropdown = document.querySelectorAll('.dropdown');
 
-featureBtn.addEventListener('click',() => {
-    featureBlog.classList.remove = 'display-none'
+menu.addEventListener('click',function(){
+    menu.parentElement.classList.toggle('open');
+    document.body.classList.toggle('nav-open');
+})
+dropdown.forEach(function(item){
+    item.addEventListener('click',function(){
+        item.parentElement.classList.toggle('link-open');
+    })
 })
