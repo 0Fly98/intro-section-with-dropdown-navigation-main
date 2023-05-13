@@ -1,2 +1,2 @@
 # intro-section-with-dropdown-navigation-main
-<img src="image-hero-desktop.png"
+![desktop.png](image-hero-desktop.png)
